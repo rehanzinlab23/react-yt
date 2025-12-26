@@ -1,5 +1,13 @@
+import Navbar from "../Section1/Navbar";
+import Page2Content from "./Page2Content";
+
 const Section2 = () => {
-  return <div className="h-screen w-full bg-pink-500">Section2</div>;
+  return (
+    <div className="h-screen w-full">
+      <Navbar />
+      <Page2Content />
+    </div>
+  );
 };
 
 export default Section2;
