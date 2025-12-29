@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-import { X } from "lucide-react";
+import { useState } from "react";
 
 const App = () => {
   const [title, setTitle] = useState("");
@@ -66,7 +64,7 @@ const App = () => {
                   <h3 className="leading-tight text-lg font-bold">
                     {elem.title}
                   </h3>
-                  <p className="leading-tight mt-6 font-medium text-gray-500 text-sm">
+                  <p className="leading-tight mt-4 font-semibold text-gray-500 text-xs">
                     {elem.details}
                   </p>
                 </div>
