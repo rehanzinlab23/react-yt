@@ -7,6 +7,8 @@ const App = () => {
   const [details, setDetails] = useState("");
   const [task, setTask] = useState([]);
 
+  localStorage.setItem("notes", JSON.stringify(task));
+
   const formSubmit = (e) => {
     e.preventDefault();
     setTask([...task, { title, details }]);
